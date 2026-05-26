@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Pagina</title>
+
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-
-    <h1>Genesis Gutierrez</h1>
-
+    <div class="contenedor">
+        <h1>Lista de Productos</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-productos">
+                <tr>
+                    <td>1</td>
+                    <td>Laptop Hp</td>
+                    <td>Tecnologia</td>
+                    <td>₡450000</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mouse</td>
+                    <td>Accesorios</td>
+                    <td>₡15000</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Televisor LG</td>
+                    <td>Electrodomésticos</td>
+                    <td>₡600000</td>
+                    <td>5</td>
+                </tr>        
+            </tbody>
+        </table>
+    </div>
+    <script src="./js/index.js"></script>
 </body>
 </html>
